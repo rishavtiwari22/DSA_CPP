@@ -1,0 +1,55 @@
+Basic Number Problems
+
+1. Count Digits → Count the number of digits in a given number.
+ex: 1234 => 4
+
+2. Reverse a Number → Reverse the digits of a number.
+ex: 1234 => 4321
+
+3. Check Palindrome → Check if a number is the same when reversed.
+ex: 12321 => Yes
+
+4. GCD & HCF → Find the Greatest Common Divisor (GCD) or Highest Common Factor (HCF).
+ex: 12, 15 => 3
+
+5. LCM → Find the Least Common Multiple (LCM) of two numbers.
+ex: 12, 15 => 60
+
+
+Prime & Factorization Problems
+
+6. Check for Prime Number → Determine if a number is prime.
+ex: 13 => Yes
+
+7. Prime Factorization → Find prime factors of a number.
+ex: 12 => 2^2 * 3
+
+8. Sieve of Eratosthenes → Efficiently find all prime numbers up to N.
+ex: 20 => 2 3 5 7 11 13 17 19
+
+
+Mathematical & Recursion Based Problems
+
+9. Factorial → Calculate the factorial of a number using recursion/loops.
+ex: 5 => 120
+
+10. Fibonacci Series → Generate Fibonacci numbers up to N (iterative and recursive) 
+ex: 5 => 0 1 1 2 3
+
+11. Power of a Number → Compute a^b using efficient methods (Binary Exponentiation).
+ex: 2, 3 => 8
+
+
+Special Number Problems
+
+12. Armstrong Number → Check if a number is equal to the sum of its own digits raised to the power of the number of digits.
+ex: 153 => Yes
+
+13. Perfect Number → A number whose sum of proper divisors equals the number itself.
+ex: 28 => Yes
+
+14. Print All Divisors → Print all divisors of a number.
+ex: 12 => 1 2 3 4 6 12
+
+15. Happy Number → Repeatedly sum the squares of digits to see if it reaches 1.
+ex: 19 => Yes
