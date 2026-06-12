@@ -16,7 +16,7 @@ int main()
     }
 
     for (auto it: mpp){
-        if (it.second > (n /3)){
+        if (it.second > (n / 3)){
             cout << "Mejority Element -> " << it.first << " - " << it.second << endl;
         }
     }
