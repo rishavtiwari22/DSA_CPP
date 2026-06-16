@@ -24,15 +24,13 @@ int main()
 
     while (i < n && j < m){
         if (a[i] < b[j]){
-            if (arr.size() == 0 || arr.back() != a[i])
-            {
+            if (arr.size() == 0 || arr.back() != a[i]){
                 arr.push_back(a[i]);
             }
             i++;
 
         }else{
-            if (arr.size() == 0 || arr.back() != b[j])
-            {
+            if (arr.size() == 0 || arr.back() != b[j]){
                 arr.push_back(b[j]);
             }
             j++;
@@ -47,8 +45,7 @@ int main()
     }
 
     while (j < m){
-        if (arr.back() != b[j] || arr.size() == 0)
-        {
+        if (arr.back() != b[j] || arr.size() == 0){
             arr.push_back(b[j]);
         }
         j++;

@@ -9,8 +9,7 @@ int main()
     vector<int> arr(n);
     map<int, int> mpp;
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++){
         cin >> arr[i];
         mpp[arr[i]]++;
     }

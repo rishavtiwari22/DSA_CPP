@@ -15,7 +15,6 @@ int main() {
 
     int l = 0;
     int r = n - 1;
-    int j = 0;
     int i = 0;
 
     while (i <= r){

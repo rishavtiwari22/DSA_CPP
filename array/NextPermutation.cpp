@@ -13,7 +13,7 @@ int main()
     }
 
     int idx = -1;
-    for (int i = 0; i < n-1; i++){
+    for (int i = n-2; i >= 0; i--){
         if (arr[i] < arr[i+1]){
             idx = i;
             break;
@@ -24,7 +24,7 @@ int main()
         reverse(arr.begin(), arr.end());
         
     }else{
-        for (int i = n - 1; i > 0; i++){
+        for (int i = n - 1; i > idx; i--){
             if (arr[i] > arr[idx]){
                 swap(arr[i], arr[idx]);
                 break;

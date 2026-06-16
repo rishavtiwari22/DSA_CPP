@@ -1,8 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int partition(vector<int> &arr, int st, int end)
-{
+int partition(vector<int> &arr, int st, int end){
     int idx = st - 1, pivot = arr[end];
 
     for (int j = st; j < end; j++){

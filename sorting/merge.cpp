@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void merge(vector<int> &arr, int low, int mid, int high)
-{
+void merge(vector<int> &arr, int low, int mid, int high){
     vector<int> vec;
 
     int left = low;
@@ -23,8 +22,7 @@ void merge(vector<int> &arr, int low, int mid, int high)
         left++;
     }
 
-    while (right <= high)
-    {
+    while (right <= high){
         vec.push_back(arr[right]);
         right++;
     }

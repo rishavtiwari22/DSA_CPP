@@ -20,7 +20,7 @@ int main() {
         if (curr == 0){
             st = i;
         }
-        curr = curr + arr[i];
+        curr += arr[i];
 
         if (curr < arr[i]){
             curr = arr[i];
