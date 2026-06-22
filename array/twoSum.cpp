@@ -18,13 +18,15 @@ int main()
         cin >> arr[i];
     }
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++){
+
         int need = targate - arr[i];
-        if (mpp.find(arr[i]) != mpp.end())
-        {
+
+        if (mpp.find(arr[i]) != mpp.end()){
+
             cout << "Exist Number - " << need << " + " << arr[i] << " = "<< targate << endl;
             break;
+            
         }
         mpp[need] = i;
     }

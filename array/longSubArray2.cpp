@@ -11,11 +11,10 @@ int main(){
     }
     
 
-    int j = 0;
     int maxLen = 0;
     int sam = 0;
     // Update this value with k
-    int k = 0;
+    int k = 6;
 
     map<int, int> mpp;
     for (int i = 0; i < n; i++){

@@ -1,4 +1,5 @@
-nt j = right - 1; j >= i; j++){
-        //     arr[right-i][j] = count;
-        //     count++;
-        // }
+for (int i = 0; i < n; i++){
+    //     for (int j = 0; j < n; j++){
+    //         swap(arr[i][j], arr[j][i]);
+    //     }
+    // }

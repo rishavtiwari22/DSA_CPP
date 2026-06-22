@@ -12,20 +12,21 @@ int main()
         cin >> arr[i];
     }
 
+    vector<int> vec(n);
     int p = 0, ne = 1;
     for (int i = 0; i < n; i++){
         if (arr[i] < 0){
-            swap(arr[i], arr[ne]);
+            vec[ne] = arr[i];
             ne += 2;
         }else{
-            swap(arr[i], arr[p]);
+            vec[p] = arr[i];
             p += 2;
         } 
     }
 
     // Output array
     for (int i = 0; i < n; i++){
-        cout << arr[i];
+        cout << vec[i];
     }
     cout << endl;
 }

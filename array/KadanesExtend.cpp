@@ -36,5 +36,5 @@ int main() {
 
     }
 
-    cout << "Max array sum - " << maxi << " and st , end - " << st << end << endl;
+    cout << "Max array sum - " << maxi << " and st " << st <<", end - " << end << endl;
 }

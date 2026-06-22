@@ -10,10 +10,8 @@ int main() {
         cin >> arr[i];
     }
 
-    int curr = arr[0];
-    int maxi = 0;
-    int l = 0;
-    int r = 0;
+    int curr = 0;
+    int maxi = INT_MIN;
 
     for (int i = 0; i < n; i++){
 
@@ -31,5 +29,5 @@ int main() {
         // maxi = max(curr, maxi);
     }
 
-    cout << "Max array sum - " << maxi << " and i , j - " << r << l << endl;
+    cout << "Max array sum - " << maxi << endl;
 }

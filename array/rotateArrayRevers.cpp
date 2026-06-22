@@ -20,8 +20,7 @@ int main()
     reverse(arr.begin() + d, arr.end());
     reverse(arr.begin(), arr.end());
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++){
         cout << arr[i];
     }
     cout << endl;
